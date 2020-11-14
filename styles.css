@@ -1,0 +1,67 @@
+.header {
+  background-color: #eee;
+  padding-left: 10px;
+}
+.assertion-row {
+  background-color: #cfc;
+  padding: 0.5rem;
+  border: 5px solid #3c3;
+}
+.assertion {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.true-false {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.date {
+  float: left;
+  padding: 0;
+  margin-right: 10px;
+  font-size: 0.7rem;
+  line-height: 1;
+}
+.score {
+  float: right;
+  padding: 0;
+  line-height: 1;
+}
+.score-text {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.left-column {
+  background-color: #cfc;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+.right-column {
+  background-color: #fdd;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+}
+.left-column h5,
+.right-column h5 {
+  text-align: center;
+  padding: 7px 0 0;
+}
+.argument-header {
+  padding: 0;
+  margin: 0;
+}
+.argument-header-btn {
+  padding: 0;
+  text-align: left;
+}
+.argument-body {
+  padding: 7px 10px;
+  line-height: normal;
+}
+cite {
+  font-size: small;
+}
