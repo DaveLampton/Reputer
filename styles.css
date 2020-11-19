@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .header {
   background-color: #eee;
   padding-left: 10px;
@@ -8,12 +13,12 @@
   border: 5px solid #3c3;
 }
 .assertion {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.2;
 }
 .true-false {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -24,14 +29,16 @@
   font-size: 0.7rem;
   line-height: 1;
 }
+.score-text {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
 .score {
   float: right;
   padding: 0;
+  font-size: 1rem;
   line-height: 1;
-}
-.score-text {
-  font-size: 0.8rem;
-  font-weight: bold;
+  margin-top: -4px;
 }
 .left-column {
   background-color: #cfc;
@@ -45,23 +52,65 @@
   border-left: 1px solid;
   border-bottom: 1px solid;
 }
-.left-column h5,
-.right-column h5 {
-  text-align: center;
+.arguments-for-against {
   padding: 7px 0 0;
+  margin-bottom: -2px;
+}
+.arguments-avg {
+  float: right;
+  font-size: 0.9rem;
 }
 .argument-header {
   padding: 0;
   margin: 0;
 }
-.argument-header-btn {
-  padding: 0;
-  text-align: left;
+.argument-header-btn.btn.btn-link {
+  float: left;
+  padding: 0 10px;
+  font-size: 0.9rem;
 }
 .argument-body {
   padding: 7px 10px;
+  font-size: 0.8rem;
+  line-height: normal;
+}
+.reputation {
+  padding: 7px 5px;
+  font-size: 0.7rem;
   line-height: normal;
 }
 cite {
   font-size: small;
+}
+.thumbs {
+  padding: 0 10px 0 0;
+  float: right;
+  margin-top: -4px;
+}
+.agree-disagree {
+  padding: 0 0 0 10px;
+  color: #666;
+  font-size: 0.7rem;
+}
+.fa-thumbs-up,
+.fa-thumbs-down {
+  padding: 0;
+  color: #666;
+  font-size: 0.8rem;
+}
+.fa-thumbs-up:hover,
+.fa-thumbs-down:hover {
+  cursor: pointer;
+}
+.argument-score-text {
+  padding: 0 0 0 20px;
+  color: #666;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.argument-score {
+  color: #333;
+  padding: 0;
+  font-size: 0.8rem;
+  line-height: 1;
 }

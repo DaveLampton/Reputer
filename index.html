@@ -10,6 +10,10 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/b8e85ccc8a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -27,13 +31,16 @@
         <div class="assertion-row col-sm-2">
           <span class="true-false">True</span>
           <span class="score"
-            ><span class="score-text">Score:<br /></span>98.3 / 100</span
+            ><span class="score-text">Score:<br /></span>+35.7</span
           >
         </div>
       </div>
       <div class="row">
         <div class="left-column col-sm-6">
-          <h5>Arguments For:</h5>
+          <div class="arguments-for-against">
+            <span class="arguments-avg">Weighted Average: 92.3/100</span>
+            <h5>Arguments For:</h5>
+          </div>
           <div id="accordionLeft">
             <div class="card">
               <div class="card-header argument-header" id="headingOneLeft">
@@ -48,6 +55,16 @@
                     Argument #1
                   </button>
                 </h5>
+                <div class="thumbs">
+                  <span class="argument-score"
+                    ><span class="argument-score-text">Score: </span
+                    >99.1/100</span
+                  >
+                  <span class="agree-disagree">Relevant/Agree:</span>
+                  <i class="far fa-thumbs-up"></i
+                  ><span class="agree-disagree">Irrelevant/Disagree:</span>
+                  <i class="far fa-thumbs-down"></i>
+                </div>
               </div>
               <div
                 id="collapseOneLeft"
@@ -62,6 +79,7 @@
                     commodo odio sem quis est. Nunc quis dui vitae quam.</q
                   >
                   <cite><a href="#">ref</a></cite>
+                  <span class="reputation">URL Reputation: 95/100</span>
                 </div>
               </div>
             </div>
@@ -78,6 +96,16 @@
                     Argument #2
                   </button>
                 </h5>
+                <div class="thumbs">
+                  <span class="argument-score"
+                    ><span class="argument-score-text">Score: </span
+                    >87.6/100</span
+                  >
+                  <span class="agree-disagree">Relevant/Agree:</span>
+                  <i class="far fa-thumbs-up"></i
+                  ><span class="agree-disagree">Irrelevant/Disagree:</span>
+                  <i class="far fa-thumbs-down"></i>
+                </div>
               </div>
               <div
                 id="collapseTwoLeft"
@@ -93,6 +121,7 @@
                     ultrices.</q
                   >
                   <cite><a href="#">ref</a></cite>
+                  <span class="reputation">URL Reputation: 88/100</span>
                 </div>
               </div>
             </div>
@@ -109,6 +138,16 @@
                     Argument #3
                   </button>
                 </h5>
+                <div class="thumbs">
+                  <span class="argument-score"
+                    ><span class="argument-score-text">Score: </span
+                    >81.5/100</span
+                  >
+                  <span class="agree-disagree">Relevant/Agree:</span>
+                  <i class="far fa-thumbs-up"></i
+                  ><span class="agree-disagree">Irrelevant/Disagree:</span>
+                  <i class="far fa-thumbs-down"></i>
+                </div>
               </div>
               <div
                 id="collapseThreeLeft"
@@ -123,13 +162,17 @@
                     convallis, et eleifend magna molestie donec.</q
                   >
                   <cite><a href="#">ref</a></cite>
+                  <span class="reputation">URL Reputation: 74/100</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="right-column col-sm-6">
-          <h5>Arguments Against:</h5>
+          <div class="arguments-for-against">
+            <span class="arguments-avg">Weighted Average: 20.9/100</span>
+            <h5>Arguments Against:</h5>
+          </div>
           <div id="accordionRight">
             <div class="card">
               <div class="card-header argument-header" id="headingOneRight">
@@ -144,6 +187,16 @@
                     Argument #1
                   </button>
                 </h5>
+                <div class="thumbs">
+                  <span class="argument-score"
+                    ><span class="argument-score-text">Score: </span
+                    >28.2/100</span
+                  >
+                  <span class="agree-disagree">Relevant/Agree:</span>
+                  <i class="far fa-thumbs-up"></i
+                  ><span class="agree-disagree">Irrelevant/Disagree:</span>
+                  <i class="far fa-thumbs-down"></i>
+                </div>
               </div>
               <div
                 id="collapseOneRight"
@@ -158,6 +211,7 @@
                     rutrum odio. Vivamus sed cursus ligula ut.</q
                   >
                   <cite><a href="#">ref</a></cite>
+                  <span class="reputation">URL Reputation: 19/100</span>
                 </div>
               </div>
             </div>
@@ -174,6 +228,16 @@
                     Argument #2
                   </button>
                 </h5>
+                <div class="thumbs">
+                  <span class="argument-score"
+                    ><span class="argument-score-text">Score: </span
+                    >15.6/100</span
+                  >
+                  <span class="agree-disagree">Relevant/Agree:</span>
+                  <i class="far fa-thumbs-up"></i
+                  ><span class="agree-disagree">Irrelevant/Disagree:</span>
+                  <i class="far fa-thumbs-down"></i>
+                </div>
               </div>
               <div
                 id="collapseTwoRight"
@@ -188,6 +252,7 @@
                     cursus dui, ultricies dictum sapien praesent non.</q
                   >
                   <cite><a href="#">ref</a></cite>
+                  <span class="reputation">URL Reputation: 16/100</span>
                 </div>
               </div>
             </div>
@@ -204,6 +269,16 @@
                     Argument #3
                   </button>
                 </h5>
+                <div class="thumbs">
+                  <span class="argument-score"
+                    ><span class="argument-score-text">Score: </span
+                    >9.4/100</span
+                  >
+                  <span class="agree-disagree">Relevant/Agree:</span>
+                  <i class="far fa-thumbs-up"></i
+                  ><span class="agree-disagree">Irrelevant/Disagree:</span>
+                  <i class="far fa-thumbs-down"></i>
+                </div>
               </div>
               <div
                 id="collapseThreeRight"
@@ -218,6 +293,7 @@
                     neque. Interdum et malesuada ac fames.</q
                   >
                   <cite><a href="#">ref</a></cite>
+                  <span class="reputation">URL Reputation: 14/100</span>
                 </div>
               </div>
             </div>
