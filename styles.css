@@ -49,16 +49,14 @@
   margin-top: -4px;
 }
 .left-column {
-  background-color: #f6f6f6;
-  border-top: 1px solid;
-  border-right: 1px solid;
-  border-bottom: 1px solid;
+  /* background-color: #f6f6f6; */
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
 }
 .right-column {
-  background-color: #f6f6f6;
-  border-top: 1px solid;
-  border-left: 1px solid;
-  border-bottom: 1px solid;
+  /* background-color: #f6f6f6; */
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
 }
 .arguments-for-against {
   padding: 7px 0 0;
