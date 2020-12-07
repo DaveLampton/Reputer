@@ -1,0 +1,145 @@
+$darkGray: #333;
+$mediumGray: #666;
+$lightGray: #999;
+$lighterGray: #ccc;
+$lightestGray: #eee;
+$lightRed: #d55;
+$lightestRed: #fcc;
+$brightGreen: #3c3;
+$lightGreen: #5d5;
+$lightestGreen: #cfc;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: $lightestGray;
+  padding-left: 10px;
+}
+.assertion-truth {
+  background-color: $lightestGreen;
+  padding: 0.5rem;
+  border: 5px solid $brightGreen;
+}
+.assertion {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2;
+  border-top: 1px solid $lighterGray;
+  padding-top: 4px;
+}
+.true-false {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.true-false-icon {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: $brightGreen;
+}
+.date {
+  float: left;
+  padding: 2px 2px 0 0;
+  margin-right: 10px;
+  font-size: 0.7rem;
+  line-height: 1;
+}
+.score-text {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.score {
+  float: right;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+  margin-top: -4px;
+}
+.left-column {
+  border-top: 1px solid $lightGray;
+  border-right: 1px solid $lightGray;
+}
+.right-column {
+  border-top: 1px solid $lightGray;
+  border-left: 1px solid $lightGray;
+}
+.arguments-for-against {
+  padding: 7px 0 0;
+  margin-bottom: -2px;
+}
+.arguments-for {
+  border-bottom: 5px solid $lightGreen;
+}
+.arguments-against {
+  border-bottom: 5px solid $lightRed;
+}
+#accordionLeft {
+  border: 5px solid $lightestGreen;
+  margin-top: -8px;
+}
+#accordionRight {
+  border: 5px solid $lightestRed;
+  margin-top: -8px;
+}
+.arguments-avg {
+  float: right;
+  font-size: 0.9rem;
+}
+.argument-header {
+  padding: 0;
+  margin: 0;
+}
+.argument-header-btn.btn.btn-link {
+  float: left;
+  padding: 0 10px;
+  font-size: 0.9rem;
+}
+.argument-body {
+  padding: 7px 10px;
+  font-size: 0.8rem;
+  line-height: normal;
+}
+.reputation {
+  padding: 7px 2px;
+  font-size: 0.7rem;
+  line-height: normal;
+}
+cite {
+  font-size: 0.8rem;
+}
+.thumbs {
+  padding: 0 10px 0 0;
+  float: right;
+  margin-top: -4px;
+}
+.accurate-inaccurate {
+  padding: 0 0 0 10px;
+  color: $mediumGray;
+  font-size: 0.7rem;
+}
+.fa-thumbs-up,
+.fa-thumbs-down {
+  padding: 0;
+  color: $mediumGray;
+  font-size: 0.8rem;
+}
+.fa-thumbs-up:hover,
+.fa-thumbs-down:hover {
+  cursor: pointer;
+}
+.argument-score-text {
+  padding: 0 0 0 20px;
+  color: $mediumGray;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.argument-score {
+  color: $darkGray;
+  padding: 0;
+  font-size: 0.8rem;
+  line-height: 1;
+}
